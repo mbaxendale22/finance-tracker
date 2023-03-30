@@ -10,7 +10,8 @@
     <%= javascript_importmap_tags %>
   </head>
   <body class="h-screen">
-    <main class="container h-screen mx-auto mt-28 px-5 flex">
+    <%= render 'layouts/navbar' %>
+    <main class="container h-screen mx-auto flex flex-col items-center mt-28 px-5">
       <p class="notice"> <%= notice %></p>
       <p class="alert"> <%= alert %></p>
       <%= yield %>
