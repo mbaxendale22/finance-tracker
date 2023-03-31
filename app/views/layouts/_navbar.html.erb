@@ -89,17 +89,3 @@
     </nav>
   </div>
 </body>
-<script>
-  // Burger menus
-  document.addEventListener('DOMContentLoaded', function() {
-      // open
-      console.log('hello')
-      const burger = document.querySelector('.navbar-burger');
-      const menu = document.querySelector('.navbar-menu');
-      const close = document.querySelector('.navbar-close');
-      const backdrop = document.querySelector('.navbar-backdrop');
-
-      burger.addEventListener('click', () => menu.classList.remove('hidden'))
-      close.addEventListener('click', () => menu.classList.add('hidden'))
-  });
-</script>
